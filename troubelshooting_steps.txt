@@ -1,0 +1,36 @@
+allssh manage_ovs show_uplinks
+allssh "manage_ovs --bridge_name br1 create_single_bridge"
+allssh manage_ovs show_bridges
+allssh manage_ovs --bridge_name br0 --interfaces eth2,eth3 --require_link=false update_uplinks
+allssh manage_ovs show_uplinks
+allssh manage_ovs --bridge_name br1 --interfaces eth0,eth1 --require_link=false update_uplinks
+allssh manage_ovs show_uplinks
+cluster stop
+allssh stargate --version 
+allssh ncc --version 
+ncli alert ls 
+links http:0:2030
+svmips
+ssh 172.17.25.34
+ncc health_checks run_all
+allssh ntpq -p
+nc 172.17.25.200 9440 -v
+
+svmips
+hostips
+ncli host ls
+hostips
+ssh root@172.17.25.12
+hostssh uptime
+hostssh "ls -l /etc/libvirt/qemu/autostart"
+virsh autostart NTNX-Nutanix-2-CVM
+virsh start NTNX-Nutanix-2-CVM
+virsh list --all
+ssh root@172.17.25.12
+hostssh "ls -l /etc/libvirt/qemu/autostart"
+hostssh uptime
+nodetool -h 0 ring
+hostips
+ssh root@172.17.25.12
+watch -d nodetool -h 0 ring
+

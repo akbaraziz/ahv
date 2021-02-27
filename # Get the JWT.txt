@@ -1,0 +1,18 @@
+# Get the JWT
+jwt = '@@{calm_jwt}@@'
+
+# Set the headers, url, and payload
+headers = {'Content-Type': 'application/json', 'Accept': 'application/json', 'Authorization': 'Bearer {}'.format(jwt)}
+url     = "https://@@{address}@@:9440/api/nutanix/v3/subnets/@@{SUBNET}@@"
+payload = {}
+
+# Make the request
+resp = urlreq(url, verb='GET', params=json.dumps(payload), headers=headers, verify=False)
+
+# If the request went through correctly, print it out.  Otherwise error out, and print the response.
+if resp.ok:
+   print json.dumps(json.loads(resp.content), indent=4)
+   exit(0)
+else:
+   print "Get request failed", resp.content
+   exit(1)

@@ -1,0 +1,2 @@
+#Add NutanixCMDletsPSSnapin
+Add-PSSnapin NutanixCMDletsPSSnapin

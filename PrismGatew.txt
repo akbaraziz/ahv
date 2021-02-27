@@ -1,0 +1,8 @@
+URL : https://server_ip:9440/PrismGateway/services/rest/v2.0/vms
+
+Body:
+{"name":"VM_name","memory_mb":1024,"num_vcpus":1,"description":"","num_cores_per_vcpu":1,"vm_disks":[{"is_cdrom":false,"disk_address":{"device_bus":"scsi"},"vm_disk_clone":{"disk_address":{"vmdisk_uuid":"3fc43450-fcda-44c2-9c68-15963e7cd665"}}}]}
+
+"vmdisk_uuid" is the uuid of the image created in AHV. To get the "vmdisk_uuid" perform a GET operation.
+
+https://server_ip:9440/PrismGateway/services/rest/v2.0/images/

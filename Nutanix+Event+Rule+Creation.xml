@@ -1,0 +1,292 @@
+<?xml version="1.0" encoding="UTF-8"?><unload unload_date="2019-09-19 20:59:22">
+<sys_remote_update_set action="INSERT_OR_UPDATE">
+<application display_value="Global">global</application>
+<application_name>Global</application_name>
+<application_scope>global</application_scope>
+<application_version/>
+<collisions/>
+<commit_date/>
+<deleted/>
+<description/>
+<inserted/>
+<name>Nutanix Event Rules Creation</name>
+<origin_sys_id/>
+<parent display_value=""/>
+<release_date/>
+<remote_base_update_set display_value=""/>
+<remote_parent_id/>
+<remote_sys_id>5e9b90381b8c401051fb21b6bc4bcbd3</remote_sys_id>
+<state>loaded</state>
+<summary/>
+<sys_class_name>sys_remote_update_set</sys_class_name>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2019-09-19 20:59:22</sys_created_on>
+<sys_id>bdbc50bc1b8c401051fb21b6bc4bcb1f</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2019-09-19 20:59:22</sys_updated_on>
+<update_set display_value=""/>
+<update_source display_value=""/>
+<updated/>
+</sys_remote_update_set>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>em_compose_field_833c1c7c1b8c401051fb21b6bc4bcbc1</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="em_compose_field"><em_compose_field action="INSERT_OR_UPDATE"><composition>${alert_title} ${cause}</composition><field>description</field><match_rule display_value="Nutanix_Node">873c1c7c1b8c401051fb21b6bc4bcbbf</match_rule><sys_created_by>admin</sys_created_by><sys_created_on>2019-09-19 20:57:15</sys_created_on><sys_id>833c1c7c1b8c401051fb21b6bc4bcbc1</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2019-09-19 20:57:15</sys_updated_on></em_compose_field></record_update>]]></payload>
+<payload_hash>-835291143</payload_hash>
+<remote_update_set display_value="Nutanix Event Rules Creation">bdbc50bc1b8c401051fb21b6bc4bcb1f</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2019-09-19 20:59:22</sys_created_on>
+<sys_id>31bc50bc1b8c401051fb21b6bc4bcb21</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>16d4b50972a0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2019-09-19 20:59:22</sys_updated_on>
+<table/>
+<target_name>833c1c7c1b8c401051fb21b6bc4bcbc1</target_name>
+<type>Event Compose Field</type>
+<update_domain>global</update_domain>
+<update_guid>cb3c1c7c3f8c401020a5051d9ada07c1</update_guid>
+<update_guid_history>cb3c1c7c3f8c401020a5051d9ada07c1:-835291143</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>em_match_rule_873c1c7c1b8c401051fb21b6bc4bcbbf</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="em_match_rule"><em_match_rule action="INSERT_OR_UPDATE"><active>true</active><additional_info_filter>{"conditions":[]}</additional_info_filter><bind>false</bind><bind_type>1</bind_type><ci_type>cmdb_ci</ci_type><close_alert_freq>1</close_alert_freq><close_alert_int>120</close_alert_int><close_alert_op/><close_alert_value/><create_alert_freq>1</create_alert_freq><create_alert_int>120</create_alert_int><create_alert_op/><create_alert_value/><description/><event_class>Nutanix</event_class><event_data>{"expressions":[],"additionalInfoFields":[{"mapping":[],"label":"alert_title","regex":"","simpleMode":"","name":"alert_title","value":"Metadata disk(s) not mounted on CVM"},{"mapping":[],"label":"alert_uid","regex":"","simpleMode":"","name":"alert_uid","value":"A101055"},{"mapping":[],"label":"cause","regex":"","simpleMode":"","name":"cause","value":""},{"mapping":[],"label":"resolution","regex":"","simpleMode":"","name":"resolution","value":""},{"mapping":[],"label":"alert_id","regex":"","simpleMode":"","name":"alert_id","value":"A101055"},{"mapping":[],"label":"svm_ip_address","regex":"","simpleMode":"","name":"svm_ip_address","value":"10.48.29.165"},{"mapping":[],"label":"severity","regex":"","simpleMode":"","name":"severity","value":"kCritical"},{"mapping":[],"label":"unmounted_disks","regex":"","simpleMode":"","name":"unmounted_disks","value":"unmounted disks"},{"mapping":[],"label":"service_vm_id","regex":"","simpleMode":"","name":"service_vm_id","value":""},{"mapping":[],"label":"arithmos_id","regex":"","simpleMode":"","name":"arithmos_id","value":""},{"mapping":[],"label":"node_uuid","regex":"","simpleMode":"","name":"node_uuid","value":"79a47e17-650f-46ee-b4ca-87007ddfebcc"},{"mapping":[],"label":"node_serial","regex":"","simpleMode":"","name":"node_serial","value":"10-48-29-163"},{"mapping":[],"label":"block_serial","regex":"","simpleMode":"","name":"block_serial","value":"10-48-29-163"}],"hasChanged":false,"rawFields":[{"mapping":[],"label":"Description","regex":"","simpleMode":"","name":"description","value":""},{"mapping":[],"label":"Node","regex":"","simpleMode":"","name":"node","value":"dev-ahv-1"},{"mapping":[],"label":"Type","regex":"","simpleMode":"","name":"type","value":"node"},{"mapping":[],"label":"Resource","regex":"","simpleMode":"","name":"resource","value":"dev-ahv-1"},{"mapping":[],"label":"Message key","regex":"","simpleMode":"","name":"message_key","value":"43933594-55fc-431f-baaf-322f8bf6010c"},{"mapping":[],"label":"Severity","regex":"","simpleMode":"","name":"severity","value":"1"},{"mapping":[],"label":"Metric Name","regex":"","simpleMode":"","name":"metric_name","value":""},{"mapping":[],"label":"Source instance","regex":"","simpleMode":"","name":"event_class","value":"Prism Central"},{"mapping":[],"label":"Source","regex":"","simpleMode":"","name":"source","value":"Nutanix"},{"mapping":[],"label":"Resolution state","regex":"","simpleMode":"","name":"resolution_state","value":"New"},{"mapping":[],"label":"CI type","regex":"","simpleMode":"","name":"ci_type","value":""},{"mapping":[],"label":"Classification","regex":"","simpleMode":"","name":"classification","value":"0"}]}</event_data><filter table="em_event">type=node^EQ<item endquery="false" field="type" goto="false" newquery="false" operator="=" or="false" value="node"/><item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/></filter><identification_rules>[]</identification_rules><ignore_event>false</ignore_event><metric/><name>Nutanix_Node</name><order>100</order><rule_mapping_counter>0</rule_mapping_counter><rule_version>jakarta</rule_version><simple_filter>{"compound_type":"or","subpredicates":[{"compound_type":"and","subpredicates":[{"subpredicates":[{"field":{"choices":[],"label":"Type","name":"type","value":"node"},"fieldType":"string","operator":{"advancedEditor":"string","label":"is","editor":"field","name":"="}}],"compound_type":"or"}]}]}</simple_filter><sys_created_by>admin</sys_created_by><sys_created_on>2019-09-19 20:57:15</sys_created_on><sys_domain>global</sys_domain><sys_id>873c1c7c1b8c401051fb21b6bc4bcbbf</sys_id><sys_mod_count>0</sys_mod_count><sys_overrides/><sys_updated_by>admin</sys_updated_by><sys_updated_on>2019-09-19 20:57:15</sys_updated_on><table>em_event</table><threshold>false</threshold><threshold_alert_template/><transform>true</transform></em_match_rule></record_update>]]></payload>
+<payload_hash>-1762791734</payload_hash>
+<remote_update_set display_value="Nutanix Event Rules Creation">bdbc50bc1b8c401051fb21b6bc4bcb1f</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2019-09-19 20:59:22</sys_created_on>
+<sys_id>3dbc50bc1b8c401051fb21b6bc4bcb21</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>16d4b5097190000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2019-09-19 20:59:22</sys_updated_on>
+<table>em_event</table>
+<target_name>Nutanix_Node</target_name>
+<type>Event Rule</type>
+<update_domain>global</update_domain>
+<update_guid>473c1c7c348c401059973f222d7541c0</update_guid>
+<update_guid_history>473c1c7c348c401059973f222d7541c0:-1762791734</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>em_compose_field_be8cd87c1b8c401051fb21b6bc4bcb37</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="em_compose_field"><em_compose_field action="INSERT_OR_UPDATE"><composition>${alert_title} ${cause}</composition><field>description</field><match_rule display_value="Nutanix_Container">b28cd87c1b8c401051fb21b6bc4bcb36</match_rule><sys_created_by>admin</sys_created_by><sys_created_on>2019-09-19 20:58:37</sys_created_on><sys_id>be8cd87c1b8c401051fb21b6bc4bcb37</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2019-09-19 20:58:37</sys_updated_on></em_compose_field></record_update>]]></payload>
+<payload_hash>-629856123</payload_hash>
+<remote_update_set display_value="Nutanix Event Rules Creation">bdbc50bc1b8c401051fb21b6bc4bcb1f</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2019-09-19 20:59:22</sys_created_on>
+<sys_id>79bc50bc1b8c401051fb21b6bc4bcb21</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>16d4b51d6a90000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2019-09-19 20:59:22</sys_updated_on>
+<table/>
+<target_name>be8cd87c1b8c401051fb21b6bc4bcb37</target_name>
+<type>Event Compose Field</type>
+<update_domain>global</update_domain>
+<update_guid>f68cd87cd68c40106bfe85e66dc2e038</update_guid>
+<update_guid_history>f68cd87cd68c40106bfe85e66dc2e038:-629856123</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>em_compose_field_7e8cd0bc1b8c401051fb21b6bc4bcbb9</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="em_compose_field"><em_compose_field action="INSERT_OR_UPDATE"><composition/><field>node</field><match_rule display_value="Nutanix_Container">b28cd87c1b8c401051fb21b6bc4bcb36</match_rule><sys_created_by>admin</sys_created_by><sys_created_on>2019-09-19 20:58:37</sys_created_on><sys_id>7e8cd0bc1b8c401051fb21b6bc4bcbb9</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2019-09-19 20:58:37</sys_updated_on></em_compose_field></record_update>]]></payload>
+<payload_hash>1521499541</payload_hash>
+<remote_update_set display_value="Nutanix Event Rules Creation">bdbc50bc1b8c401051fb21b6bc4bcb1f</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2019-09-19 20:59:22</sys_created_on>
+<sys_id>7dbc50bc1b8c401051fb21b6bc4bcb20</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>16d4b51d6b50000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2019-09-19 20:59:22</sys_updated_on>
+<table/>
+<target_name>7e8cd0bc1b8c401051fb21b6bc4bcbb9</target_name>
+<type>Event Compose Field</type>
+<update_domain>global</update_domain>
+<update_guid>768cd0bc118c40109ece931f680c50ba</update_guid>
+<update_guid_history>768cd0bc118c40109ece931f680c50ba:1521499541</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>em_match_rule_b6fb547c1b8c401051fb21b6bc4bcbfd</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="em_match_rule"><em_match_rule action="INSERT_OR_UPDATE"><active>true</active><additional_info_filter>{"conditions":[]}</additional_info_filter><bind>true</bind><bind_type>2</bind_type><ci_type>cmdb_ci_nutanix_vm_instance</ci_type><close_alert_freq>1</close_alert_freq><close_alert_int>120</close_alert_int><close_alert_op/><close_alert_value/><create_alert_freq>1</create_alert_freq><create_alert_int>120</create_alert_int><create_alert_op/><create_alert_value/><description/><event_class>Nutanix</event_class><event_data>{"expressions":[],"additionalInfoFields":[{"mapping":[],"label":"alert_title","regex":"","simpleMode":"","name":"alert_title","value":"VM Protection Failed."},{"mapping":[],"label":"alert_uid","regex":"","simpleMode":"","name":"alert_uid","value":"A130158"},{"mapping":[],"label":"cause","regex":"","simpleMode":"","name":"cause","value":""},{"mapping":[],"label":"resolution","regex":"","simpleMode":"","name":"resolution","value":""},{"mapping":[],"label":"vm_name","regex":"","simpleMode":"","name":"vm_name","value":"pr-linux"},{"mapping":[],"label":"severity","regex":"","simpleMode":"","name":"severity","value":"kCritical"},{"mapping":[],"label":"reason","regex":"","simpleMode":"","name":"reason","value":"issue with network connectivity"},{"mapping":[],"label":"alert_id","regex":"","simpleMode":"","name":"alert_id","value":"A130158"},{"mapping":[],"label":"vm_uuid","regex":"","simpleMode":"","name":"vm_uuid","value":"9f13001f-1f1d-4bcc-b9f3-268f9d6e1086"},{"mapping":[],"label":"vm_id","regex":"","simpleMode":"","name":"vm_id","value":"1234"},{"mapping":[],"label":"service_vm_id","regex":"","simpleMode":"","name":"service_vm_id","value":""},{"mapping":[],"label":"arithmos_id","regex":"","simpleMode":"","name":"arithmos_id","value":""},{"mapping":[],"label":"node_uuid","regex":"","simpleMode":"","name":"node_uuid","value":"3e79d93f-fb8b-4599-ba6c-4443be1a7294"},{"mapping":[],"label":"node_serial","regex":"","simpleMode":"","name":"node_serial","value":"10-48-29-165"},{"mapping":[],"label":"block_serial","regex":"","simpleMode":"","name":"block_serial","value":"10-48-29-165"}],"hasChanged":false,"rawFields":[{"mapping":[],"label":"Description","regex":"","simpleMode":"","name":"description","value":""},{"mapping":[],"label":"Node","regex":"","simpleMode":"","name":"node","value":"dev-ahv-3"},{"mapping":[],"label":"Type","regex":"","simpleMode":"","name":"type","value":"vm"},{"mapping":[],"label":"Resource","regex":"","simpleMode":"","name":"resource","value":"pr-linux"},{"mapping":[],"label":"Message key","regex":"","simpleMode":"","name":"message_key","value":"0b49c8eb-7503-4e3b-9d54-2222c9d9e6b7"},{"mapping":[],"label":"Severity","regex":"","simpleMode":"","name":"severity","value":"1"},{"mapping":[],"label":"Metric Name","regex":"","simpleMode":"","name":"metric_name","value":""},{"mapping":[],"label":"Source instance","regex":"","simpleMode":"","name":"event_class","value":"Prism Central"},{"mapping":[],"label":"Source","regex":"","simpleMode":"","name":"source","value":"Nutanix"},{"mapping":[],"label":"Resolution state","regex":"","simpleMode":"","name":"resolution_state","value":"New"},{"mapping":[],"label":"CI type","regex":"","simpleMode":"","name":"ci_type","value":""},{"mapping":[],"label":"Classification","regex":"","simpleMode":"","name":"classification","value":"0"}]}</event_data><filter table="em_event">type=vm^EQ<item endquery="false" field="type" goto="false" newquery="false" operator="=" or="false" value="vm"/><item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/></filter><identification_rules>[]</identification_rules><ignore_event>false</ignore_event><metric/><name>Nutanix_VM</name><order>100</order><rule_mapping_counter>0</rule_mapping_counter><rule_version>jakarta</rule_version><simple_filter>{"compound_type":"or","subpredicates":[{"compound_type":"and","subpredicates":[{"subpredicates":[{"field":{"choices":[],"label":"Type","name":"type","value":"vm"},"fieldType":"string","operator":{"advancedEditor":"string","label":"is","editor":"field","name":"="}}],"compound_type":"or"}]}]}</simple_filter><sys_created_by>admin</sys_created_by><sys_created_on>2019-09-19 20:56:10</sys_created_on><sys_domain>global</sys_domain><sys_id>b6fb547c1b8c401051fb21b6bc4bcbfd</sys_id><sys_mod_count>0</sys_mod_count><sys_overrides/><sys_updated_by>admin</sys_updated_by><sys_updated_on>2019-09-19 20:56:10</sys_updated_on><table>em_event</table><threshold>false</threshold><threshold_alert_template/><transform>true</transform></em_match_rule></record_update>]]></payload>
+<payload_hash>-99779618</payload_hash>
+<remote_update_set display_value="Nutanix Event Rules Creation">bdbc50bc1b8c401051fb21b6bc4bcb1f</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2019-09-19 20:59:22</sys_created_on>
+<sys_id>b1bc50bc1b8c401051fb21b6bc4bcb22</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>16d4b4f96b20000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2019-09-19 20:59:22</sys_updated_on>
+<table>em_event</table>
+<target_name>Nutanix_VM</target_name>
+<type>Event Rule</type>
+<update_domain>global</update_domain>
+<update_guid>76fb547c238c40107b58e7992f0627fe</update_guid>
+<update_guid_history>76fb547c238c40107b58e7992f0627fe:-99779618</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>em_compose_field_b2fb547c1b8c401051fb21b6bc4bcbff</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="em_compose_field"><em_compose_field action="INSERT_OR_UPDATE"><composition>${alert_title} ${cause}</composition><field>description</field><match_rule display_value="Nutanix_VM">b6fb547c1b8c401051fb21b6bc4bcbfd</match_rule><sys_created_by>admin</sys_created_by><sys_created_on>2019-09-19 20:56:10</sys_created_on><sys_id>b2fb547c1b8c401051fb21b6bc4bcbff</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2019-09-19 20:56:10</sys_updated_on></em_compose_field></record_update>]]></payload>
+<payload_hash>461362774</payload_hash>
+<remote_update_set display_value="Nutanix Event Rules Creation">bdbc50bc1b8c401051fb21b6bc4bcb1f</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2019-09-19 20:59:22</sys_created_on>
+<sys_id>b5bc50bc1b8c401051fb21b6bc4bcb21</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>16d4b4f96ce0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2019-09-19 20:59:22</sys_updated_on>
+<table/>
+<target_name>b2fb547c1b8c401051fb21b6bc4bcbff</target_name>
+<type>Event Compose Field</type>
+<update_domain>global</update_domain>
+<update_guid>fafb547c998c40103bb767cd529de4ff</update_guid>
+<update_guid_history>fafb547c998c40103bb767cd529de4ff:461362774</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>em_compose_field_4ffb947c1b8c401051fb21b6bc4bcb01</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="em_compose_field"><em_compose_field action="INSERT_OR_UPDATE"><composition>${resource}</composition><field>name</field><match_rule display_value="Nutanix_VM">b6fb547c1b8c401051fb21b6bc4bcbfd</match_rule><sys_created_by>admin</sys_created_by><sys_created_on>2019-09-19 20:56:10</sys_created_on><sys_id>4ffb947c1b8c401051fb21b6bc4bcb01</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2019-09-19 20:56:10</sys_updated_on></em_compose_field></record_update>]]></payload>
+<payload_hash>1681304495</payload_hash>
+<remote_update_set display_value="Nutanix Event Rules Creation">bdbc50bc1b8c401051fb21b6bc4bcb1f</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2019-09-19 20:59:22</sys_created_on>
+<sys_id>b9bc50bc1b8c401051fb21b6bc4bcb20</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>16d4b4f96f00000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2019-09-19 20:59:22</sys_updated_on>
+<table/>
+<target_name>4ffb947c1b8c401051fb21b6bc4bcb01</target_name>
+<type>Event Compose Field</type>
+<update_domain>global</update_domain>
+<update_guid>47fb947c708c4010748f4686796cda02</update_guid>
+<update_guid_history>47fb947c708c4010748f4686796cda02:1681304495</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>em_compose_field_0bfb947c1b8c401051fb21b6bc4bcb00</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="em_compose_field"><em_compose_field action="INSERT_OR_UPDATE"><composition/><field>node</field><match_rule display_value="Nutanix_VM">b6fb547c1b8c401051fb21b6bc4bcbfd</match_rule><sys_created_by>admin</sys_created_by><sys_created_on>2019-09-19 20:56:10</sys_created_on><sys_id>0bfb947c1b8c401051fb21b6bc4bcb00</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2019-09-19 20:56:10</sys_updated_on></em_compose_field></record_update>]]></payload>
+<payload_hash>-407153850</payload_hash>
+<remote_update_set display_value="Nutanix Event Rules Creation">bdbc50bc1b8c401051fb21b6bc4bcb1f</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2019-09-19 20:59:22</sys_created_on>
+<sys_id>f1bc50bc1b8c401051fb21b6bc4bcb20</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>16d4b4f96e10000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2019-09-19 20:59:22</sys_updated_on>
+<table/>
+<target_name>0bfb947c1b8c401051fb21b6bc4bcb00</target_name>
+<type>Event Compose Field</type>
+<update_domain>global</update_domain>
+<update_guid>03fb947c3a8c4010144e20ba0695c401</update_guid>
+<update_guid_history>03fb947c3a8c4010144e20ba0695c401:-407153850</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>em_compose_field_b28cd0bc1b8c401051fb21b6bc4bcbbb</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="em_compose_field"><em_compose_field action="INSERT_OR_UPDATE"><composition>${resource}</composition><field>name</field><match_rule display_value="Nutanix_Container">b28cd87c1b8c401051fb21b6bc4bcb36</match_rule><sys_created_by>admin</sys_created_by><sys_created_on>2019-09-19 20:58:37</sys_created_on><sys_id>b28cd0bc1b8c401051fb21b6bc4bcbbb</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2019-09-19 20:58:37</sys_updated_on></em_compose_field></record_update>]]></payload>
+<payload_hash>-258126580</payload_hash>
+<remote_update_set display_value="Nutanix Event Rules Creation">bdbc50bc1b8c401051fb21b6bc4bcb1f</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2019-09-19 20:59:22</sys_created_on>
+<sys_id>f1bc50bc1b8c401051fb21b6bc4bcb21</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>16d4b51d6c20000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2019-09-19 20:59:22</sys_updated_on>
+<table/>
+<target_name>b28cd0bc1b8c401051fb21b6bc4bcbbb</target_name>
+<type>Event Compose Field</type>
+<update_domain>global</update_domain>
+<update_guid>ba8cd0bc0d8c401001628c071145b2bb</update_guid>
+<update_guid_history>ba8cd0bc0d8c401001628c071145b2bb:-258126580</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>em_match_rule_b28cd87c1b8c401051fb21b6bc4bcb36</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="em_match_rule"><em_match_rule action="INSERT_OR_UPDATE"><active>true</active><additional_info_filter>{"conditions":[]}</additional_info_filter><bind>true</bind><bind_type>2</bind_type><ci_type>cmdb_ci_nutanix_storage_container</ci_type><close_alert_freq>1</close_alert_freq><close_alert_int>120</close_alert_int><close_alert_op/><close_alert_value/><create_alert_freq>1</create_alert_freq><create_alert_int>120</create_alert_int><create_alert_op/><create_alert_value/><description/><event_class>Nutanix</event_class><event_data>{"expressions":[],"additionalInfoFields":[{"mapping":[],"label":"alert_title","regex":"","simpleMode":"","name":"alert_title","value":"Storage Container Replication Factor Low"},{"mapping":[],"label":"alert_uid","regex":"","simpleMode":"","name":"alert_uid","value":"A1074"},{"mapping":[],"label":"cause","regex":"","simpleMode":"","name":"cause","value":""},{"mapping":[],"label":"resolution","regex":"","simpleMode":"","name":"resolution","value":""},{"mapping":[],"label":"container_region","regex":"","simpleMode":"","name":"container_region","value":"ctr1_region"},{"mapping":[],"label":"severity","regex":"","simpleMode":"","name":"severity","value":"kCritical"},{"mapping":[],"label":"container_uuid","regex":"","simpleMode":"","name":"container_uuid","value":"5717534b-46b9-43a7-bea7-e51cee66ed15"},{"mapping":[],"label":"container_id","regex":"","simpleMode":"","name":"container_id","value":"8"},{"mapping":[],"label":"alert_id","regex":"","simpleMode":"","name":"alert_id","value":"A1074"},{"mapping":[],"label":"container_name","regex":"","simpleMode":"","name":"container_name","value":"default-container-999999"},{"mapping":[],"label":"service_vm_id","regex":"","simpleMode":"","name":"service_vm_id","value":""},{"mapping":[],"label":"arithmos_id","regex":"","simpleMode":"","name":"arithmos_id","value":""},{"mapping":[],"label":"node_uuid","regex":"","simpleMode":"","name":"node_uuid","value":"46fdb419-b001-487f-bcba-43c0cc954517"},{"mapping":[],"label":"node_serial","regex":"","simpleMode":"","name":"node_serial","value":"10-48-29-164"},{"mapping":[],"label":"block_serial","regex":"","simpleMode":"","name":"block_serial","value":"10-48-29-164"}],"hasChanged":false,"rawFields":[{"mapping":[],"label":"Description","regex":"","simpleMode":"","name":"description","value":""},{"mapping":[],"label":"Node","regex":"","simpleMode":"","name":"node","value":"dev-ahv-2"},{"mapping":[],"label":"Type","regex":"","simpleMode":"","name":"type","value":"container"},{"mapping":[],"label":"Resource","regex":"","simpleMode":"","name":"resource","value":"default-container-999999"},{"mapping":[],"label":"Message key","regex":"","simpleMode":"","name":"message_key","value":"Prince_Container-15-09-1"},{"mapping":[],"label":"Severity","regex":"","simpleMode":"","name":"severity","value":"1"},{"mapping":[],"label":"Metric Name","regex":"","simpleMode":"","name":"metric_name","value":""},{"mapping":[],"label":"Source instance","regex":"","simpleMode":"","name":"event_class","value":"Prism Central"},{"mapping":[],"label":"Source","regex":"","simpleMode":"","name":"source","value":"Nutanix"},{"mapping":[],"label":"Resolution state","regex":"","simpleMode":"","name":"resolution_state","value":"New"},{"mapping":[],"label":"CI type","regex":"","simpleMode":"","name":"ci_type","value":""},{"mapping":[],"label":"Classification","regex":"","simpleMode":"","name":"classification","value":"0"}]}</event_data><filter table="em_event">type=container^EQ<item endquery="false" field="type" goto="false" newquery="false" operator="=" or="false" value="container"/><item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/></filter><identification_rules>[]</identification_rules><ignore_event>false</ignore_event><metric/><name>Nutanix_Container</name><order>100</order><rule_mapping_counter>0</rule_mapping_counter><rule_version>jakarta</rule_version><simple_filter>{"compound_type":"or","subpredicates":[{"compound_type":"and","subpredicates":[{"subpredicates":[{"field":{"choices":[],"label":"Type","name":"type","value":"container"},"fieldType":"string","operator":{"advancedEditor":"string","label":"is","editor":"field","name":"="}}],"compound_type":"or"}]}]}</simple_filter><sys_created_by>admin</sys_created_by><sys_created_on>2019-09-19 20:58:37</sys_created_on><sys_domain>global</sys_domain><sys_id>b28cd87c1b8c401051fb21b6bc4bcb36</sys_id><sys_mod_count>0</sys_mod_count><sys_overrides/><sys_updated_by>admin</sys_updated_by><sys_updated_on>2019-09-19 20:58:37</sys_updated_on><table>em_event</table><threshold>false</threshold><threshold_alert_template/><transform>true</transform></em_match_rule></record_update>]]></payload>
+<payload_hash>-1282059840</payload_hash>
+<remote_update_set display_value="Nutanix Event Rules Creation">bdbc50bc1b8c401051fb21b6bc4bcb1f</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2019-09-19 20:59:22</sys_created_on>
+<sys_id>fdbc50bc1b8c401051fb21b6bc4bcb21</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>16d4b51d6990000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2019-09-19 20:59:22</sys_updated_on>
+<table>em_event</table>
+<target_name>Nutanix_Container</target_name>
+<type>Event Rule</type>
+<update_domain>global</update_domain>
+<update_guid>728cd87cef8c40107f38c8df44af8837</update_guid>
+<update_guid_history>728cd87cef8c40107f38c8df44af8837:-1282059840</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+</unload>
